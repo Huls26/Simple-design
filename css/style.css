@@ -1,0 +1,96 @@
+:root {
+    --ff-accent: 'Permanent Marker', cursive;
+    --ff-primary: 'Open Sans', sans-serif;
+    --ff-italic: 'Permanent Marker', cursive;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+   
+    margin: 0;
+    padding: 0;
+    color: black;
+  }
+
+li {
+    display: inline;
+}
+
+li a,
+a {
+    color: black;
+}
+
+li a:hover {
+    color: turquoise;
+}
+
+#lorem:hover {
+    color: turquoise;
+}
+
+footer p:hover {
+    color: turquoise;
+}
+
+body {
+    font-family: var(--ff-primary);
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 1.3125rem;
+    text-align: justify;
+}
+
+.headers h1 {
+    font-family: var(--ff-accent);
+    font-size: 3rem;
+    font-weight: 400;
+
+}
+
+.headers .italic{
+    font-family: 'Roboto', sans-serif;;
+    font-weight: 500;
+}
+
+#small-text {
+    font-size: 1rem;
+}
+
+header,
+headers {
+    padding: 2rem 0;
+}
+
+.container,
+header {
+    margin-inline: auto;
+    width: min(90%, 70rem);
+}
+
+h1,
+.paragraphs
+ {
+    margin-bottom: 1rem;
+}
+
+.center-narrow,footer {
+    text-align: center;
+}
+
+.text-bold {
+    font-weight: 800;
+}
